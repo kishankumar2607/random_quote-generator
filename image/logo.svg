@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 411.69 162.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #1f1d1e;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        font-size: 60px;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #8358c7;
+        font-family: MyriadConceptRoman-Bold, 'Myriad Variable Concept';
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        opacity: .15;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        font-weight: 700;
+      }
+
+      .cls-12 {
+        fill: #e56565;
+        font-family: Gilroy-ExtraBold, 'Gilroy ExtraBold';
+        font-size: 46.77px;
+      }
+
+      .cls-9 {
+        font-size: 42px;
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="4.12" y1="137.61" x2="407.56" y2="137.61" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e559bd"/>
+      <stop offset="1" stop-color="#9765e5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="12.68" y2="12.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="386.33" y1="68.8" x2="411.69" y2="68.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e59559"/>
+      <stop offset="1" stop-color="#e56565"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0" x2="25.35" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <g>
+        <polygon class="cls-1" points="407.56 137.61 234.34 137.61 208.98 162.97 183.62 137.61 4.12 137.61 29.48 112.24 382.2 112.24 407.56 137.61"/>
+        <polygon class="cls-3" points="407.56 0 395.88 11.69 382.21 25.36 29.47 25.36 15.8 11.69 4.12 0 407.56 0"/>
+        <polygon class="cls-4" points="411.69 4.13 411.69 133.47 400 121.77 386.34 108.11 386.33 108.12 386.33 29.49 386.34 29.5 400 15.83 411.69 4.13"/>
+        <polygon class="cls-5" points="25.35 29.49 25.35 108.12 25.34 108.11 11.69 121.76 0 133.46 0 4.14 11.69 15.84 25.34 29.5 25.35 29.49"/>
+        <g class="cls-10">
+          <polygon class="cls-2" points="25.35 29.49 25.35 108.12 25.34 108.11 11.69 121.76 11.69 15.84 25.34 29.5 25.35 29.49"/>
+          <polygon class="cls-2" points="382.2 112.24 395.86 125.9 229.5 125.9 208.98 146.43 188.46 125.9 15.82 125.9 29.48 112.24 382.2 112.24"/>
+          <polygon class="cls-2" points="395.88 11.69 382.21 25.36 29.47 25.36 15.8 11.69 395.88 11.69"/>
+          <polygon class="cls-2" points="400 15.83 400 121.77 386.34 108.11 386.33 108.12 386.33 29.49 386.34 29.5 400 15.83"/>
+        </g>
+      </g>
+      <text class="cls-11" transform="translate(36.56 83.49)"><tspan class="cls-12" x="0" y="0">•• </tspan><tspan class="cls-8" x="36.29" y="0">I</tspan><tspan class="cls-6" x="53.57" y="0">nspi</tspan><tspan class="cls-7" x="167.09" y="0">r</tspan><tspan class="cls-6" x="189.41" y="0">e</tspan><tspan class="cls-8" x="221.09" y="0">M</tspan><tspan class="cls-6" x="272.03" y="0">e</tspan><tspan class="cls-9" x="303.71" y="0"> </tspan><tspan class="cls-12" x="312.19" y="0">••</tspan></text>
+    </g>
+  </g>
+</svg>

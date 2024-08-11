@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Random Quote Generator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img src="./image/logo.png" alt="Logo" class="logo"
+        /></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="details.html">Details</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-us">
+        <h1>Contact Us</h1>
+        <div class="contact-us-div">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>
+              If you have any questions, feedback, or just want to say hello,
+              feel free to reach out to us. We would love to hear from you!
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:info@quote-generator.com"
+                >kishan5646@quote-generator.com</a
+              >
+            </p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+            </p>
+            <p>
+              <strong>Address:</strong> 123 Inspiration Lane, Motivational City,
+              MC 45678
+            </p>
+            <img
+              src="./image/contact-us.png"
+              alt="Logo"
+              class="contact-us-image"
+            />
+          </div>
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="mobile">Mobile:</label>
+                <input type="number" id="mobile" name="mobile" required />
+              </div>
+              <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea
+                  id="address"
+                  name="address"
+                  rows="2"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Kishan Kumar Das | 8995646</p>
+    </footer>
+  </body>
+</html>

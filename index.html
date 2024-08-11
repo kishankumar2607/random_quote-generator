@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img src="./image/logo.png" alt="Logo" class="logo"
+        /></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="details.html">Details</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Notification Message -->
+    <div id="notification-message" class="notification"></div>
+    <main>
+      <section>
+        <img src="./image/banner.jpg" alt="banner-image" class="banner-image" />
+      </section>
+
+      <section class="quote-generator">
+        <h1>Random Quote Generator</h1>
+        <div id="quote-box">
+          <p id="quote-text">Click the button to get a quote!</p>
+        </div>
+        <div>
+          <button id="new-quote">Get New Quote</button>
+          <button id="add-to-favorites">Add to Favorites</button>
+        </div>
+      </section>
+
+      <section class="quote-of-the-day">
+        <h1>Quote of the Day</h1>
+        <div id="quote-box1">
+          <p id="daily-quote">Loading...</p>
+        </div>
+        <div>
+          <button id="refresh-quote">Refresh Daily Quote</button>
+          <button id="add-daily-to-favorites">Add to Favorites</button>
+        </div>
+      </section>
+
+      <section class="favorite-quotes">
+        <h1>Your Favorite Quotes</h1>
+        <ul id="favorites-list">
+          <!-- User's favorite quotes will appear here -->
+        </ul>
+        <button id="clear-favorites">Clear Favorites</button>
+      </section>
+
+      <section>
+        <img
+          src="./image/banner2.png"
+          alt="banner-image"
+          class="banner-image"
+        />
+      </section>
+
+      <section class="share-quote">
+        <h1>Share This Quote</h1>
+        <div class="share-div">
+          <button id="share-instagram" aria-label="Share on Instagram">
+            Instagram
+          </button>
+          <button id="share-facebook" aria-label="Share on Facebook">
+            Facebook
+          </button>
+          <button id="share-twitter" aria-label="Share on Twitter">
+            Twitter
+          </button>
+          <button id="share-linkedin" aria-label="Share on LinkedIn">
+            LinkedIn
+          </button>
+          <button id="share-whatsapp" aria-label="Share on WhatsApp">
+            WhatsApp
+          </button>
+        </div>
+      </section>
+
+      <section class="quote-submission">
+        <h1>Submit Your Quote</h1>
+        <form id="quote-form">
+          <textarea
+            id="user-quote"
+            rows="4"
+            placeholder="Enter your quote here..."
+          ></textarea>
+          <button type="submit">Submit Quote</button>
+        </form>
+      </section>
+
+      <section class="quote-history">
+        <h1>Quote History</h1>
+        <ul id="history-list">
+          <!-- History of quotes will appear here -->
+        </ul>
+        <button id="clear-history">Clear History</button>
+      </section>
+
+      <!-- Notification Section -->
+      <section class="notification">
+        <p id="notification-message" style="display: none">
+          Quote added to favorites!
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Kishan Kumar Das | 8995646</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
